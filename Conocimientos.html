@@ -5,49 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum</title>
-    
-<style>
-    a:link{
-        text-decoration: none;
-        border: solid 2px #7A542E;
-        border-radius: 40px;
-        padding: 2px;
-        background-color: #7A542E;
-        color: #000000;
-    }
-    a:visited{
-        border: solid 2px #7A542E;
-        background-color: #9E8576;
-        color: #000000;
-    }
-    a:hover{
-        background-color: #af9274;
-        border: none;
-    }
-</style>
-
+    <link rel="stylesheet" href="estilos/estilos.css">
 </head>
-<body style=" border:solid 2px black; width: 50%; margin: 0 auto;margin-top: 20px;">
-    <img style="margin: 15px; float: left;"  width="250" height="250" src="FotoCV.jpg" alt="fotocv" >
-    <h1 style="margin-left:50%; margin-top: 2%;"> Curriculum vitae </h1>
-   <br><br><br><br><br><br><br><br><br><br><br>
-<div style="margin: 20px;border: solid 1px #2A2E45;background-size: contain;border-radius: 20px; background-color: #A499BE;">     
-   <h2 style="margin-left: 40%;">Conocimientos</h2>
-    <ul>
-        <li>Javascript</li>
-        <li>HTML5</li>
-        <li>CSS Avanzado</li>
-        <li>Illustrator</li>
-        <li>Photoshop</li>
-        <li>Excel</li>
-        <li><strong>Inglés</strong> Intermedio</li>
-        <li><Strong>Japonés</Strong> Básico</li>
-    </ul>
-    <ul style="margin-top: 50px;">
-        <li style="margin-bottom: 10px;"><a href="index.html"> <strong>Datos personales</strong> </a> </li>
-        <li style="margin-bottom: 10px; margin-top: 10px;"><a href="estudios.html"><strong>Estudios</strong></a> </li>
-        <li style="margin-top: 10px;"><a href="experiencia_laboral.html"><strong>Experiencia Laboral</strong></a> </li>
-    </ul>
-</div>
+<body>
+    <section class="home">
+        <div class="nav">
+            <button class="bt1"><a class="a1" href="index.html"> <strong>Datos personales</strong></a></button>
+            <button class="bt2"><a class="a2" href="estudios.html"><strong>Estudios</strong></a> </button>
+            <button class="bt3"><a class="a3" href="experiencia_laboral.html"><strong>Experiencia Laboral</strong></button></a>
+        </div>
+        <div class="cv">    
+            <img class="imgcv" src="img/FotoCV.jpg" alt="fotocv" id="carnet">
+            <h1> Curriculum vitae </h1>
+        </div>
+        <br><br><br><br>
+        <img src="img/Conocimineto.png" alt="Foto de datos" class="imdatos">
+            <div class="blur">
+                <div class="datos">
+                    <div class="divh2">
+                        <h2>Conocimientos</h2>
+                    </div>
+                    <ul class="ulli">
+                        <li><strong>Inglés</strong> Intermedio</li>
+                        <li><Strong>Japonés</Strong> Básico</li>
+                    </ul>
+                    <ul class="uldatos">
+                        <li>Javascript</li>
+                        <li>HTML5</li>
+                        <li>CSS Avanzado</li>
+                        <li>Illustrator</li>
+                        <li>Photoshop</li>
+                        <li>Excel</li>
+                    </ul>
+                 
+                </div>               
+            </div>
+                
+    </section>
 </body>
+<footer>
+    
+</footer>
 </html>
