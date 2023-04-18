@@ -1,6 +1,9 @@
 body{
     background-color: #427AA8;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .bt1{
@@ -148,6 +151,7 @@ h1{
     margin-left: 20%;
     border-radius: 32px;
     box-shadow: 8px 9px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20vh;
 }
 
 
@@ -180,4 +184,5 @@ footer{
     padding: 30px;
     text-align: center;
     color: #F5F5F5;
+    margin-top: auto;
 }
