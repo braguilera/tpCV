@@ -13,6 +13,12 @@ body{
     transition-duration: 0.4s;
 }
 
+a{
+    font-family: 'Arvo', serif;
+    color: #2D3033;
+    font-size: 18px;
+}
+
 .a1{
     text-decoration: none;
     color: #F5F5F5;
@@ -127,7 +133,6 @@ h1{
     color: #F5F5F5;
     border: 9px double #427AA8;
     border-left: none;
-    font-family: 'Arvo', serif;
     font-family: 'Space Mono', monospace;
 }
 
@@ -143,7 +148,6 @@ h1{
     margin-left: 20%;
     border-radius: 32px;
     box-shadow: 8px 9px 20px rgba(0, 0, 0, 0.4);
-
 }
 
 
@@ -156,7 +160,6 @@ h2{
     text-align: center;
     font-size: 48px;
     padding-top: 10px;
-    font-family: 'Arvo', serif;
     font-family: 'Space Mono', monospace;
 }
 
@@ -178,14 +181,3 @@ footer{
     text-align: center;
     color: #F5F5F5;
 }
-
-/*.blur{
-    width: 1150px;
-    height: 372px;
-    margin-left: 145px;
-    top: 497px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) ;
-    filter: blur(10px);
-    border-radius: 60px;
-    backdrop-filter: blur(10px);
-}*/
