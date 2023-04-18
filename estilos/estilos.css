@@ -16,6 +16,7 @@ body{
 .a1{
     text-decoration: none;
     color: #F5F5F5;
+    font-family: 'Arvo', serif;
 }
 
 .a1 :hover{
@@ -45,6 +46,7 @@ body{
 .a2{
     text-decoration: none;
     color: #F5F5F5;
+    font-family: 'Arvo', serif;
 }
 
 .a2 :hover{
@@ -74,11 +76,12 @@ body{
 .a3{
     text-decoration: none;
     color: #F5F5F5;
+    font-family: 'Arvo', serif;
 }
 
 .a3 :hover{
     color: #2D3033;
-    transition-duration: 0.4s;
+    transition-duration: 0.4s;   
 }
 
 .bt3:hover{
@@ -124,6 +127,8 @@ h1{
     color: #F5F5F5;
     border: 9px double #427AA8;
     border-left: none;
+    font-family: 'Arvo', serif;
+    font-family: 'Space Mono', monospace;
 }
 
 .imdatos{
@@ -151,6 +156,8 @@ h2{
     text-align: center;
     font-size: 48px;
     padding-top: 10px;
+    font-family: 'Arvo', serif;
+    font-family: 'Space Mono', monospace;
 }
 
 .uldatos{
