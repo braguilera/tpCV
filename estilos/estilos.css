@@ -58,13 +58,14 @@ a{
 .cv{
     display: flex;
     align-items: center;
-    padding: 0 80px;
+    padding: 0px;
 }
 
 .imgcv{
     filter: drop-shadow(8px 9px 20px rgba(0, 0, 0, 0.4));
     border-radius: 0px 0px 40px 40px;
     width: 20em;
+    margin-left: 3em;
 }
 
 h1{
@@ -88,7 +89,7 @@ h1{
     width: 5em;
 }
 
-.datos{
+.dato{
     background-color: #5FB2F5;
     width: 50vw;
     height: 350px;
@@ -115,12 +116,24 @@ h2{
     font-size: 20px;
 }
 
-.ulli{
-    float: right;
-    margin-top: 0px;
-    margin-right: 500px;
-    font-size: 20px;
+.uldatos1{
+    font-size: 2em;
+}
 
+u{
+    font-size: 2em;
+}
+.ulli{
+    display: flex;
+    font-size: 2em;
+    flex-direction: column;
+}
+
+.id{
+    
+    padding-left: 10em;
+    margin-top: -4.1em;
+    list-style-position:inside;
 }
 
 footer{
@@ -132,21 +145,23 @@ footer{
     width: 100vw;
 }
 
-@media (max-width:578px) {
-    
+@media (max-width:578px) 
+{
 
     .imgcv{
         filter: drop-shadow(8px 9px 20px rgba(0, 0, 0, 0.4));
         border-radius: 0px 0px 40px 40px;
         width: 10em;
+        margin-left: 3em;
     }
 
     h1{
         background-color: #2D3033;
         width: 20vw;
         padding: 10px;
-        padding-left: 100px;
+        padding-left: 2em;
         font-size: 1em;
+        text-align: center;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         color: #F5F5F5;
@@ -155,11 +170,11 @@ footer{
         font-family: 'Space Mono', monospace;
     }
 
-    .datos{
+    .dato{
         flex-wrap: wrap;
         background-color: #5FB2F5;
         width: 60vw;
-        height: 70vh;
+        height: 60vh;
         margin-left: 6em;
         border-radius: 32px;
         box-shadow: 8px 9px 20px rgba(0, 0, 0, 0.4);
@@ -176,5 +191,23 @@ footer{
         padding-top: 1em;
         font-family: 'Space Mono', monospace;
 
+    }
+
+    .ulli{
+        display: flex;
+        font-size: 2em;
+        flex-direction: column;
+    }
+
+    .id{
+        margin-left: 0em;
+        margin-top: 0.5em;
+        padding-left: 0em;
+        list-style:none ;
+        
+    }
+
+    u{
+        font-size: 1.1em;
     }
 }
