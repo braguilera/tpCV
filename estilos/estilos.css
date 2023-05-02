@@ -79,7 +79,7 @@ h1{
     color: #F5F5F5;
     border: 9px double #427AA8;
     border-left: none;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Arvo', serif;
 }
 
 .imdatos{
@@ -107,8 +107,8 @@ h2{
     border-top-right-radius: 32px;
     text-align: center;
     font-size: 2em;
-    padding-top: 10px;
-    font-family: 'Space Mono', monospace;
+    padding-top: 0.5em;
+    font-family: 'Arvo', serif;
     justify-content: center;
 }
 
@@ -118,6 +118,7 @@ h2{
 
 .uldatos1{
     font-size: 2em;
+    
 }
 
 u{
